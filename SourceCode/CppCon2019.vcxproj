@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="BoostExamples\Accumulators.cpp" />
     <ClCompile Include="BoostExamples\CircularBuffers.cpp" />
+    <ClCompile Include="BoostExamples\EuroTree.cpp" />
     <ClCompile Include="BoostExamples\IntegrationAndDifferentiation.cpp" />
     <ClCompile Include="BoostExamples\MultiArray.cpp" />
     <ClCompile Include="BoostExamples\TimeSeries.cpp" />
@@ -30,14 +31,16 @@
     <ClCompile Include="RootFindingExamples.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BoostExamples\EuroTree.h" />
+    <ClInclude Include="BoostExamples\Node.h" />
     <ClInclude Include="BoostExamples\RealFunction.h" />
     <ClInclude Include="BoostExamples\TestClassForMultiArray.h" />
     <ClInclude Include="BoostExamples\TimeSeries.h" />
+    <ClInclude Include="ExampleFunctionsHeader.h" />
     <ClInclude Include="MonteCarloOptions\EquityPriceGenerator.h" />
     <ClInclude Include="MonteCarloOptions\MCEuroOptPricer.h" />
     <ClInclude Include="RootFinding\Bisection.h" />
     <ClInclude Include="RootFinding\Steffenson.h" />
-    <ClInclude Include="ExampleFunctionsHeader.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

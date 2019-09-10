@@ -37,6 +37,7 @@ void vectorAndAccumulator();
 
 // MultiArray
 void TestLattice();
+void eurology();	// Binary lattice option pricing
 
 
 #endif
