@@ -1,5 +1,6 @@
 #include "../ExampleFunctionsHeader.h"
 #include "TestClassForMultiArray.h"
+#include "EuroTree.h"
 
 #include <boost/multi_array.hpp>
 #include <algorithm>
@@ -43,4 +44,21 @@ void TestLattice()
 	std::for_each(mtx.data(), mtx.data() + mtx.num_elements(), print);
 
 	std::cout << std::endl << std::endl;
+}
+
+void eurology()
+{
+	std::cout << std::endl << "***** multi_array: eurology() (Lattice option pricer) *****" << std::endl;
+	EuroTree myTree(100.0, 0.10, 0.2, 0.04, 100.0,
+		0.5, Porc::CALL, 4);
+
+
+	std::cout << std::endl << std::endl;
+
+	std::cout << "Display terminal underlying and payoff prices:" << std::endl;
+	for (int i = 3; i >= 0; --i)
+	{
+		std::cout << i << ": " << myTree(i, 3).underlying << ", " << myTree(i, 3).payoff << std::endl;
+	}
+
 }
