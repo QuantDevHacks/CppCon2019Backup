@@ -1,11 +1,3 @@
-/*
-	Copyright (c) 2019, Daniel Hanson, Tania Luo
-	University of Washington
-	Dept of Applied Mathematics
-	Computational Finance & Risk Management (CFRM)
-	For instructional purposes only
-*/
-
 #ifndef STEFFENSON_H
 #define STEFFENSON_H
 
@@ -43,26 +35,27 @@ namespace qdh
 				x_n_1 = x_n;
 			}
 
-//			return x_n;
 			return std::numeric_limits<Real>::infinity();
 		}
 	} 
 }
 
 /*
-	Unless explicitly acquired and licensed from Licensor under another
-	license, the contents of this file are subject to the Reciprocal Public
-	License ("RPL") Version 1.5, or subsequent versions as allowed by the RPL,
-	and You may not copy or use this file in either source code or executable
-	form, except in compliance with the terms and conditions of the RPL.
+	Copyright 2019 Daniel Hanson, Tania Luo
 
-	All software distributed under the RPL is provided strictly on an "AS
-	IS" basis, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, AND
-	LICENSOR HEREBY DISCLAIMS ALL SUCH WARRANTIES, INCLUDING WITHOUT
-	LIMITATION, ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
-	PURPOSE, QUIET ENJOYMENT, OR NON-INFRINGEMENT. See the RPL for specific
-	language governing rights and limitations under the RPL.
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+
+		http://www.apache.org/licenses/LICENSE-2.0
+
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
 */
+
 
 #endif // !STEFFENSON_H
 
