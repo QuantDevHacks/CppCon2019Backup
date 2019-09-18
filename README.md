@@ -1,2 +1,2 @@
 # CppCon2019
-Slides and Code for _Leveraging Modern C++ in Quantitative Finance_
+Sample Code to accompany _Leveraging Modern C++ in Quantitative Finance_.  
