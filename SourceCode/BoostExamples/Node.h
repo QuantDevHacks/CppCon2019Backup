@@ -1,25 +1,18 @@
-#ifndef TEST_CLASS_H
-#define TEST_CLASS_H
+#ifndef NODE_H
+#define NODE_H
 
-class TestClassForMultiArray
+struct Node
 {
-public:
-	void calc(double x, double y)
-	{
-		result_ = x * y;
-	}
-
-	double operator()() const
-	{
-		return result_;
-	}
-
-private:
-	double result_;
+	double underlying;
+	double payoff;
 };
 
+enum class Porc
+{
+	CALL, PUT
+};
 
-#endif // !TEST_CLASS_H
+#endif // !NODE_H
 
 /*
 	Copyright 2019 Daniel Hanson
@@ -36,5 +29,4 @@ private:
 	See the License for the specific language governing permissions and
 	limitations under the License.
 */
-
 
